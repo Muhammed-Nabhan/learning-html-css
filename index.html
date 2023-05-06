@@ -2,25 +2,34 @@
 <html>
     <head>
         <title>Learning HTML</title>
+        <link rel="stylesheet" href="style.css"
     </head>
-    <body bgcolor="#cd6f31">
-        <center> <h1>MIND EMPOWERED</h1>
-        <img src="me.jpeg" alt="">
-        </center>
-        <h2>We focus on:</h2>
+    <body >
+       <div class="title">
+        <center> <h1 id="heading">MIND EMPOWERED</h1></center>
+        </div>
+        
+          <center><img id="img" src="me.jpeg" alt=""><br></center>
+       
+        <div class="focus">
+        <h3>We focus on:</h3>
         <ul>
             <li>Psychological Empowerment</li>
             <li>Social Empowerment</li>
         </ul>
+    </div>
+    <div class="provide">
         <h3>We provide:</h3>
-        <ol>
+          <ol>
             <li>Webinars</li>
             <li>Workshops</li>
             <li>Internships</li>
             <li>Talkshows</li>
             <li>Hackathons</li>
         </ol>
-        <h3>Past Events:</h3>
+    </div>
+    <div class="clr"></div>
+        <h3 id="pe">Past Events:</h3>
         <center><table border="1" width="80%">
             <tr>
                 <th>Program</th>
@@ -42,7 +51,8 @@
                 <td>24-25 February 2023</td>
             </tr>
         </table></center>
-        <h2><U>About 'ME'</U></h2>
+        <h2 id="am"><U>About 'ME'</U></h2>
+       <center> <div class="para">
         <p>Mind Empowered Charitable Trust is a non-profit organization that aims to promote 
             mental health awareness and provide support to those struggling with mental health issues. 
             Founded in 2018, the organization has been working tirelessly to provide mental health services
@@ -67,7 +77,9 @@
               Charitable Trust is an essential organization that is making a significant impact on the mental health
                landscape in India.
          </p>
-         <a href="https://www.mind-empowered.org/">Want to know more?</a><br>
-         <a href="https://in.linkedin.com/in/mind-empowered">Go to LinkedIn profile</a>
+        </div></center>
+         <center><a  href="https://www.mind-empowered.org/">Want to know more?</a><br>
+         <a href="https://in.linkedin.com/in/mind-empowered">Go to LinkedIn profile</a></center>
+        <a class="button" href="mailto:meempowered@gmail.com">Contact via mail</a>
     </body>
 </html>
